@@ -1,0 +1,35 @@
+title: Channy Portfolio Page
+description: > # this means to ignore newlines until "baseurl:"
+  This is a website I made, containing all Extra Curriculars, Awards, Volunteers, Activities, and more.
+permalink: ':title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
+
+# Author Settings
+author: Channy Kim # add your name
+author-img: david-freeman.jpg # add your photo
+about-author: G10 student currently going to Dwight Seoul # add description
+# social-twitter: # add your Twitter handle
+# social-facebook: # add your Facebook handle
+social-github: channyk1m # add your Github handle
+# social-linkedin: # add your Linkedin handle
+social-email: channyeatskim@gmail.com # add your Email address
+
+# Disqus
+discus-identifier: mr-brown # add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
